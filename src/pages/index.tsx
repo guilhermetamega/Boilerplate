@@ -9,7 +9,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Hay</title>
-        <meta name="description" content="Appppppp" />
+        <meta name="description" content="Aps" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
