@@ -6,12 +6,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
-    "postinstall":"husky install"
+    "postinstall": "husky install",
+    "prepare": "husky install"
   },
-  "lint-staged":{
-    "src/**/*":[
+  "lint-staged": {
+    "src/**/*": [
       "npm run lint --fix"
-    ]
+    ],
+    "*.js": "eslint --cache --fix"
   },
   "dependencies": {
     "@types/node": "^16.11.11",
@@ -29,6 +31,7 @@
   "devDependencies": {
     "eslint": "7.32.0",
     "eslint-config-next": "12.0.4",
-    "husky": "^7.0.4"
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2"
   }
 }
