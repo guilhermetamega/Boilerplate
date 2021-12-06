@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Hay</title>
-        <meta name="description" content="Tese 3" />
+        <meta name="description" content="Tefasdjklf" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
