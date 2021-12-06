@@ -20,13 +20,6 @@
       "npm run test --bail"
     ]
   },
-  "jest":{
-    "testEnvironment": "jsdom",
-    "testPathIgnorePatterns": ["/node_modules/", "/.next/"],
-    "collectCoverage": true,
-    "collectCoverageFrom": ["src/**/*.ts(x)"],
-    "setupFilesAfterEnv": ["<rootDir>/.jest/setup.ts"]
-  },
   "dependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.16.0",
     "@babel/preset-typescript": "^7.16.0",
